@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@layer components{
+  .container{
+    @apply px-4 mx-auto w-full sm:w-[540px] md:w-[720px] lg:w-[960px] xl:w-[1140px] 2xl:w-[1320px];
+  }
+  .no-scroll-bar::-webkit-scrollbar{
+    display: no;
+  }
+  .no-scroll-bar{
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .filter-btn{
+    @apply hidden lg:inline-flex border rounded-full text-gray-500 font-semibold py-2 px-4  hover:shadow-lg active:scale-105 transition duration-200 cursor-pointer;
+  }
+}
