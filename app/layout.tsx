@@ -20,9 +20,7 @@ const geistMono = localFont({
 export const metadata: Metadata = {
   title: "Airbnb-clone",
   description: "Aibnb-clone next.js",
-   icons: {
-    icon: "https://upload.wikimedia.org/wikipedia/commons/6/69/Airbnb_Logo_B%C3%A9lo.svg"
-   }
+  
 };
 
 export default function RootLayout({
